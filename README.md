@@ -1,78 +1,17 @@
+Introducing eExam - Revolutionizing Exam Attendance with QR Code Scanning
 
+eExam is an innovative mobile application designed to simplify exam attendance monitoring and enhance the efficiency of the examination process. With its powerful features and user-friendly interface, eExam is the ultimate solution for academic institutions.
 
+With eExam, teachers and invigilators can effortlessly manage exam sessions. Upon logging in, users are presented with a secure login system to access the app's features.
 
-#Surveillant App
-The Surveillant App is a mobile application developed using React Native for the front-end and Spring for the back-end. It allows users to generate and control exams, mark absent and present students, and provides a calendar view for tracking all scheduled exams. Additionally, the app allows users to update their password.
+The centerpiece of eExam is its advanced QR code scanning capability. During exams, teachers can easily scan the QR codes assigned to each student using the app's built-in scanner. This automated process allows for quick and accurate tracking of attendance, ensuring that every student is accounted for.
 
-Table of Contents
-Installation
-Usage
-Features
-API Documentation
-Contributing
-License
-Acknowledgments
-Contact Information
-Installation
-To install and run the Surveillant App locally, follow these steps:
+The app provides a comprehensive list of enrolled students for each exam session. Once the QR code is scanned, eExam instantly marks the student as present, providing real-time attendance updates. This feature eliminates the need for manual attendance taking, reducing administrative burden and minimizing errors.
 
-Clone the repository: git clone <repository-url>
-Navigate to the project directory: cd surveillant-app
-Install the required dependencies: npm install
-Start the development server: npm start
-Use the appropriate development environment or emulator to run the app.
-Usage
+In cases where a student's QR code is unavailable, eExam also offers a manual search function. Teachers can swiftly locate and mark the student as present by searching for their name and surname within the app.
 
-  
-To use the Surveillant App, follow these instructions:
+Furthermore, eExam offers a range of additional functionalities. Users can access a calendar feature to view upcoming exam dates, ensuring proper planning and organization. The app also includes a profile section where users can manage their account details and update their information.
 
-Launch the app and log in using your credentials.
-After logging in, you will be taken to your profile page.
-On the profile page, you can update your password by selecting the "Change Password" option.
-To access the calendar and view scheduled exams, navigate to the "Calendar" section.
-In the calendar view, you can see the date and location (salle) of each exam.
-Select an exam from the calendar to view the details.
-Within the exam details, you will find a list of students assigned to that exam.
-If you have a QR code scanner available, click the "Scan QR Code" button to mark a student as present.
-If you don't have a QR code scanner, you can manually search for a student using their name (nom) and surname (prenom) in the search bar.
-After locating the student, mark them as present using the provided option.
-Repeat steps 8-10 for each student in the exam.
-You can navigate back to the calendar or profile page using the respective buttons in the app's navigation.
-Note: Please ensure that you have the necessary permissions and access rights to perform the actions described above.
+Built using the cutting-edge React Native framework, eExam delivers a seamless and responsive experience across various mobile devices.
 
-Feel free to customize the usage instructions according to your specific app's functionality and user flow.
-  
-  
-  
-The Surveillant App offers the following key features:
-
-Generate and control exams
-Mark students as absent or present
-Calendar view for tracking scheduled exams
-Update password
-API Documentation
-For detailed API documentation, please refer to the API Documentation provided separately.
-
-Contributing
-Contributions are welcome! If you would like to contribute to the Surveillant App, please follow these steps:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes and push them to your forked repository.
-Submit a pull request, describing your changes in detail and mentioning the problem you're addressing.
-License
-The Surveillant App is distributed under the MIT License. See the LICENSE file for more information.
-
-Acknowledgments
-We would like to thank the following individuals and resources for their contributions to this project:
-
-[Name of contributor or resource 1]
-[Name of contributor or resource 2]
-...
-Contact Information
-For any inquiries or support, please contact us:
-
-Email: [your-email@example.com]
-Website: [your-website-url]
-Twitter: [@your-twitter-handle]
-GitHub: [your-github-username]
+Experience the convenience and reliability of eExam as it revolutionizes exam attendance monitoring. Streamline your exam processes and enhance overall efficiency. Download eExam today and transform your exam management workflow.
