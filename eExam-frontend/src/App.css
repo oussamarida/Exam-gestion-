@@ -1,0 +1,153 @@
+
+body {
+  /* fallback for old browsers */
+  background: #19A7CE;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgb(10, 77, 104), rgb(8, 131, 149));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FFFFFF
+}
+
+
+
+
+#navbar{
+background-color: #1976D2;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+
+}
+#nav-middle-btn{
+margin-right: 10px;
+margin-left: 10px;
+background-color: #1976D2;
+box-shadow: none;
+
+
+
+
+}
+#nav-icon{
+
+  color: white;
+}
+
+
+#upload-page{ 
+  background-color: #FFFFFF;
+width: inherit;
+height: 90vh;
+display: flex;
+justify-content: center;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+
+}
+
+#file-form{
+  margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: 8px dashed #2196F3;
+      height: 300px;
+      width: inherit  ;
+      cursor: pointer;
+      border-radius: 5px;
+
+
+}
+
+
+#input-field-icon{
+  display: flex;
+  justify-content: center;
+  color: #2196F3;
+font-size: 50px;
+
+
+
+}
+
+#input-filed-button{
+margin-left: 43%;
+margin-right: 43%;
+background-color: #2196F3;
+border-radius: 10px;
+border: none;
+height: 6vh ;
+font-weight: bold;
+justify-content: center;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center; 
+color: #FFFFFF;
+}
+
+#navbarDropdownMenuAvatar{
+background-color: #FFFFFF;
+border-radius: 80%;
+
+
+}
+
+#admin-section{
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+#login-form{
+
+  color: #19A7CE;
+  justify-content:  center;
+
+}
+
+
+#form-text{
+align-items: center;
+text-align: center;
+color: #19A7CE;
+
+
+}
+
+#formEmail , #formPassword{
+border: #19A7CE;
+border-color: #19A7CE;
+}
+
+
+#list-page{ 
+  background-color: #FFFFFF;
+width: inherit;
+height: 90vh;
+display: flex;
+justify-content: center;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+
+}
+
+
+
+#list-page-select{
+width: 100%;
+border-radius: 20px;
+color: black;
+cursor: pointer;
+margin-top: 20px;
+font-size: 17px;
+border-color: none;
+
+}
+
+
+.highlighted {
+  color: black;
+}
