@@ -1,17 +1,83 @@
-Introducing eExam - Revolutionizing Exam Attendance with QR Code Scanning
+# Description
+The eExam project is a web and mobile application designed to streamline the process of conducting exams and assessments in educational institutions. The project utilizes React for the web interface and React Native for the mobile app, offering a seamless experience for both students and administrators.
+The eExam platform provides three distinct user roles: students, admins, and surveillants. Each role has specific functionalities and features tailored to their needs.
 
-eExam is an innovative mobile application designed to simplify exam attendance monitoring and enhance the efficiency of the examination process. With its powerful features and user-friendly interface, eExam is the ultimate solution for academic institutions.
+# Team
+The eExam project is developed by Saad Samih, Osama Reda, and Mariam Sakhi. Saad is responsible for the frontend web development with APIs, Oussama is responsible for the frontend mobile development with APIs, and Mariam contributes to the backend development.
 
-With eExam, teachers and invigilators can effortlessly manage exam sessions. Upon logging in, users are presented with a secure login system to access the app's features.
 
-The centerpiece of eExam is its advanced QR code scanning capability. During exams, teachers can easily scan the QR codes assigned to each student using the app's built-in scanner. This automated process allows for quick and accurate tracking of attendance, ensuring that every student is accounted for.
+Oussama Reda   : https://github.com/oussamarida
 
-The app provides a comprehensive list of enrolled students for each exam session. Once the QR code is scanned, eExam instantly marks the student as present, providing real-time attendance updates. This feature eliminates the need for manual attendance taking, reducing administrative burden and minimizing errors.
+Mariam Sakhi : https://github.com/MariamSakhi
+   
+# Class diagram   
 
-In cases where a student's QR code is unavailable, eExam also offers a manual search function. Teachers can swiftly locate and mark the student as present by searching for their name and surname within the app.
+![alt text](./Class.png)
+   
+# Features
+# Student Side
+Authentication: Students can log in to their accounts and securely access the system.
 
-Furthermore, eExam offers a range of additional functionalities. Users can access a calendar feature to view upcoming exam dates, ensuring proper planning and organization. The app also includes a profile section where users can manage their account details and update their information.
+Password Management: Students can update their passwords to maintain account security.
 
-Built using the cutting-edge React Native framework, eExam delivers a seamless and responsive experience across various mobile devices.
+Exam Calendar: Students can view their exams in a calendar format to easily track their schedule.
 
-Experience the convenience and reliability of eExam as it revolutionizes exam attendance monitoring. Streamline your exam processes and enhance overall efficiency. Download eExam today and transform your exam management workflow.
+Convocation: Students can check the convocation details.
+
+Convocation Download: Students can download the convocation document for reference.
+
+# Admin Side
+Authentication: Admins can log in to their accounts and securely access the system.
+
+Password Management: Admins can update their passwords to maintain account security.
+
+Data Import: Admins can upload a JSON file to add data to the database, such as student information, exam details, etc.
+
+Student Management: Admins can add students to exams by associating them with the respective exams.
+
+# Surveillant Side
+Authentication: Surveillants can log in to their accounts and securely access the system.
+
+Password Management: Surveillants can update their passwords to maintain account security.
+
+Room and Exam List: Surveillants can view a list of rooms and exams assigned to them.
+
+Student List: Surveillants can select a room and view the list of students assigned to that room for a particular exam.
+
+QR Code Scanner: Surveillants can use the app's built-in QR code scanner to mark student attendance by scanning their QR codes.
+
+Search by Name: Surveillants can search for students by name to mark their attendance manually if needed.
+
+# Technologies Used
+React: A JavaScript library for building user interfaces.
+
+React Native: A framework for building native mobile applications using React.
+
+Spring Boot: A Java-based framework for building web applications and RESTful APIs
+
+HTML5, CSS3, and JavaScript: Core web technologies for building the eExam website.
+
+Spring Framework: An application framework for Java applications.
+
+Spring Data JPA: A module of the Spring Framework for database access using the Java Persistence API.
+
+Spring Security: A framework for handling authentication and authorization.
+
+MySQL : Relational databases for storing user accounts, exam details, and other relevant data.
+
+mdbootstrap: A popular UI toolkit based on Bootstrap for designing responsive web interfaces.
+
+react-pdf/renderer: A React library for rendering PDF documents in the browser.
+
+react-dates: A library for implementing date pickers and calendars in React.
+
+QR Code API: An API provided by qrserver.com for generating QR codes based on the provided data :
+"https://api.qrserver.com/v1/create-qr-code/?size=200x200&data={code} "
+
+# Video démonstration
+
+# Web
+https://www.youtube.com/watch?v=KVh3zCMBG8c
+# Mobile
+https://www.youtube.com/watch?v=VKoljsHCcuw
+
