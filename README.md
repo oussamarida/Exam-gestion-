@@ -10,6 +10,7 @@ Oussama Reda   : https://github.com/oussamarida
 
 Mariam Sakhi : https://github.com/MariamSakhi
    
+Saad Samid : https://github.com/Bakka08
 # Class diagram   
 
 ![alt text](./Class.png)
